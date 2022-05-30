@@ -5,3 +5,7 @@ Python MinesWeeper API for hexagonal architecture sample, based on the article [
 ## Domain
 All the domain models will be placed in the directory `./domain`.
 It contains the go struct definition of each entity that is part of the domain problem and can be used across the application.
+
+## Ports
+The ports will be placed in the directory `./ports`.
+It contains the abstract classes (AKA interfaces definition ;) used to communicate with actors.
