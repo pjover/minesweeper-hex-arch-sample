@@ -14,3 +14,7 @@ It contains the abstract classes (AKA interfaces definition ;) used to communica
 The services are our entry points to the core and each one of them implements the corresponding port.
 
 They will be placed in packages inside the directory `./services`.
+
+
+## Adapters
+All driven adapters will be placed inside `./adapters/driven`
