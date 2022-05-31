@@ -9,3 +9,8 @@ It contains the go struct definition of each entity that is part of the domain p
 ## Ports
 The ports will be placed in the directory `./ports`.
 It contains the abstract classes (AKA interfaces definition ;) used to communicate with actors.
+
+## Services
+The services are our entry points to the core and each one of them implements the corresponding port.
+
+They will be placed in packages inside the directory `./services`.

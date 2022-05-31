@@ -25,3 +25,10 @@ class Game:
 @dataclass
 class Error:
     message: str
+
+    def is_error(self) -> bool:
+        return self.message == ""
+
+
+def success() -> Error:
+    return Error("")
