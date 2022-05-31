@@ -18,3 +18,4 @@ They will be placed in packages inside the directory `./services`.
 
 ## Adapters
 All driven adapters will be placed inside `./adapters/driven`
+All driver adapters will be placed inside `./adapters/driver`
