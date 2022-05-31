@@ -22,3 +22,6 @@ All driver adapters will be placed inside `./adapters/driver`
 
 ## Dependency injection
 Dependency injection puts all components together, and will be placed inside `./di`
+
+## Run the game
+The game script is placed at `./cmd` 
