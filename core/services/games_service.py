@@ -1,11 +1,10 @@
 import string
-from abc import abstractmethod
 from random import random
 from typing import Tuple
 
-from domain import domain
+from core.domain import domain
 
-from ports import games_service, games_repository
+from core.ports import games_service, games_repository
 
 class GamesService(games_service.GamesService):
 

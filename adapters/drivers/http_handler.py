@@ -1,8 +1,6 @@
 from urllib.parse import urlparse
 
-import ports
-import http.server
-import socketserver
+from core import ports
 
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import logging

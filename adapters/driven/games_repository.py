@@ -1,7 +1,6 @@
-from abc import abstractmethod
 from typing import Tuple
 
-from domain import domain
+from core.domain import domain
 
 
 class GamesRepository:
